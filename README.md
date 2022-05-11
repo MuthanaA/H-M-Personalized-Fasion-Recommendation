@@ -14,12 +14,13 @@ I will be sampling the data into users who have more than 30 pruchases (Active u
 
 For Active users I will be using:
 
-GRU: an RNN that uses the structural embedding of the product data.
-GRUF: an RNN that uses the visual embedding of the product data.
+1. GRU: an LSTM/ Sequential model that uses the structural embedding of the product data.
+2. GRUF: an LSTM/ Sequential model that uses the visual embedding of the product data.
+
 For Cold users, I will be using:
 
-NPU: an RNN desgned for the cold user problem.
-ALS: a matrix factorization technique, which counts as a colaborative filtering model.
-Trending products: using the trending products that week. This will be very useful for attracting cold users.
+1. NPU: an RNN desgned for the cold user problem.
+2. ALS: a matrix factorization technique, which counts as a colaborative filtering model.
+3. Trending products: using the trending products that week. This will be very useful for attracting cold users.
 
 Link to the Competition: https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations
